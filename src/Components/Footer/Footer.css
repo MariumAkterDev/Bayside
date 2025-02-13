@@ -26,5 +26,5 @@
     @apply hover:text-[#000] hover:underline duration-[0.3s]
 }
 .footerRow2{
-    @apply lg:mt-[36px] flex flex-wrap justify-between lg:justify-start lg:gap-[165px] px-[20px] lg:px-0 
+    @apply lg:mt-[36px] flex flex-wrap justify-between lg:justify-start lg:gap-[165px] px-[20px] lg:px-0 pb-[35px]
 }

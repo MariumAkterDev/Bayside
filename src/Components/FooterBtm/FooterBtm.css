@@ -1,0 +1,15 @@
+.MainFooterBtm{
+    @apply bg-[#B8E0EF] w-[full] pb-[41px]
+}
+.footerBtmRow{
+    @apply  pt-[35px] px-[20px] lg:px-0  flex flex-wrap-reverse items-center justify-center gap-y-[20px] sm:justify-between
+}
+.footerBtmRow p{
+    @apply text-[#53585F] text-[16px] font-bold font-Lato
+}
+.socials{
+    @apply  flex items-center gap-[18px] text-[22px]
+}
+.socials .icon{
+    @apply w-[35px] h-[35px] rounded-full bg-[#000] text-[#B8E0EF] flex justify-center items-center hover:bg-[#fff] hover:text-[#000] duration-[0.2s]
+}
