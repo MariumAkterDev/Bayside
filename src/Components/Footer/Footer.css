@@ -1,0 +1,30 @@
+.MainFooter{
+    @apply bg-[#B8E0EF]
+}
+.footerRow1{
+    @apply pt-[30px] lg:pt-[59px] pb-[41px]   flex justify-center 
+}
+.footerRow1Child{
+    @apply  flex justify-center lg:w-[943px] shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]
+}
+.footerRow1 img{
+    @apply w-[150px] h-[150px] sm:w-[240px] sm:h-[240px] lg:w-[463px] lg:h-[401px]
+}
+.footerRow1Txt{
+    @apply w-[150px] h-[150px] sm:w-[240px] sm:h-[240px] lg:w-[480px] lg:h-[401px] bg-[#fff]  flex flex-col items-center justify-center
+}
+.footerRow1Txt p{
+    @apply pt-[8px] pb-[10px] sm:pb-[20px] lg:pb-[35px] w-fit lg:w-[362px] text-center text-[12px] sm:text-[16px] text-PrimaryColor-34 font-Lato font-normal
+}
+.footerRow2SingCard h4{
+    @apply text-[14px] lg:text-[21px] text-PrimaryColor-34 font-Lato font-bold mb-[16px] lg:mb-[24px]
+}
+.footerMenu{
+    @apply flex flex-col gap-y-[5px] lg:gap-y-[12px] text-[12px] lg:text-[16px] text-[#53585F] font-Lato font-bold 
+}
+.footerMenu a{
+    @apply hover:text-[#000] hover:underline duration-[0.3s]
+}
+.footerRow2{
+    @apply lg:mt-[36px] flex flex-wrap justify-between lg:justify-start lg:gap-[165px] px-[20px] lg:px-0 
+}

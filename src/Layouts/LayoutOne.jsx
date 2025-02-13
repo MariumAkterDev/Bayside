@@ -8,7 +8,7 @@ const LayoutOne = () => {
     <>
         <Nav/>
         <Outlet/>
-        {/* <Footer/> */}
+        <Footer/>
     </>
   )
 }
