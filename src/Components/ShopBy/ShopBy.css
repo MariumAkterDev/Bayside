@@ -1,0 +1,18 @@
+.shopRow{
+    @apply pt-[20px] lg:pt-[51px] pb-[20px] lg:pb-[66px] px-[20px] lg:px-0 
+}
+.shopRow h2{
+    @apply uppercase
+}
+.shopSingleCard{
+    @apply flex flex-col items-center gap-[8px] lg:gap-[17px]
+}
+.shopSingleCard img{
+    @apply w-[80px] sm:w-[100px] lg:w-[221px]
+}
+.shopSingleCard{
+    @apply text-[14px] lg:text-[18px] text-brand-Color font-Lato font-medium hover:brightness-[80%] duration-[0.2s]
+}
+.jwelaryCards{
+    @apply pt-[10px] lg:pt-[49px]  flex flex-wrap items-center justify-between gap-y-[10px]
+}

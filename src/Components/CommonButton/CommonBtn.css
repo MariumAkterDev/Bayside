@@ -1,0 +1,3 @@
+.CmnBtnCss{
+    @apply w-[100px] md:w-[170px] h-[30px] md:h-[42px] leading-[30px] md:leading-[42px] text-center rounded-[4px] uppercase text-[12px] md:text-[16px] font-Lato font-bold  hover:scale-[0.98] duration-[0.2s]
+}

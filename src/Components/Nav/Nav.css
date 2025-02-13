@@ -1,0 +1,50 @@
+.navRow{
+    @apply pt-[23px] pb-[8px] sm:pb-[12px] lg:pb-[22px] flex items-center justify-between px-[20px] lg:px-0
+}
+
+.logoCol img{
+    @apply w-[200px] lg:w-[402px]
+}
+.menuCol{
+    @apply  flex items-center gap-[20px] lg:gap-[49px]
+}
+.menuCol ul{
+    @apply flex items-center gap-[20px] lg:gap-[63px]
+}
+.menuCol ul li{
+    @apply text-[14px] lg:text-[16px] text-[#343434] font-Lato font-bold hover:text-[#0D5EBA] duration-[0.3s]
+}
+.cart{
+    @apply  text-[#002D69] text-[18px] lg:text-[26px]
+}
+/* ----------------------------------------Nav Mobile Bar------------------------------ */
+
+.navMobBar{
+    @apply sm:hidden flex items-center justify-between  overflow-hidden
+}
+.mobBarIcon{
+    @apply text-[22px] text-brand-Color p-[4px]
+}
+.mobMenu{
+    @apply w-[200px] h-[45%] bg-[#d6d3d3] absolute top-[55px] left-[0]  z-[100] transition-all duration-[1s]
+}
+.mobMenu ul{
+    @apply w-[90%] h-full mx-auto flex flex-col gap-[20px] mt-[40px] ml-[20px]
+}
+.mobMenu ul li{
+    @apply text-PrimaryColor-34  font-bold font-Lato text-[16px]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
