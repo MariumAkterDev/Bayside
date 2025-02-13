@@ -26,13 +26,13 @@
     @apply text-[22px] text-brand-Color p-[4px]
 }
 .mobMenu{
-    @apply w-[90%] h-[80%] bg-brand-Color absolute top-[55px] left-[0]  z-[100] transition-all duration-[1s]
+    @apply w-[90%] h-[90%] bg-brand-Color absolute top-[53px] left-[0]  z-[100] transition-all duration-[1s]
 }
 .mobMenu ul{
     @apply w-[90%] h-full mx-auto flex flex-col gap-[20px] mt-[40px] ml-[20px]
 }
 .mobMenu ul li{
-    @apply text-[#fff]  font-bold font-Lato text-[16px]
+    @apply text-[#fff]  font-bold font-Lato text-[18px]
 }
 .menuIcon{
     @apply  flex gap-[30px] items-center
