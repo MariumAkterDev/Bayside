@@ -26,7 +26,7 @@
     @apply text-[22px] text-brand-Color p-[4px]
 }
 .mobMenu{
-    @apply w-[90%] h-[90%] bg-brand-Color absolute top-[53px] left-[0]  z-[100] transition-all duration-[1s]
+    @apply w-[90%] h-[100%] bg-brand-Color absolute top-[53px] left-[0]  z-[100] transition-all duration-[1s]
 }
 .mobMenu ul{
     @apply w-[90%] h-full mx-auto flex flex-col gap-[20px] mt-[40px] ml-[20px]
