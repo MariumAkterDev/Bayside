@@ -1,0 +1,15 @@
+.serviceRow{
+    @apply pt-[40px] lg:pt-[78px] pb-[70px] lg:pb-[111px]
+}
+.serviceSingleCard{
+    @apply flex flex-col items-center gap-[8px] lg:gap-[17px]
+}
+.serviceSingleCard img{
+    @apply w-[130px] sm:w-[180px] lg:w-[392px]
+}
+.serviceSingleCard{
+    @apply text-[14px] lg:text-[18px] text-brand-Color font-Lato font-medium hover:brightness-[120%] duration-[0.2s] uppercase
+}
+.serviceCards{
+    @apply pt-[10px] lg:pt-[49px] pb-[30px]  flex flex-wrap items-center justify-between gap-y-[10px]
+}

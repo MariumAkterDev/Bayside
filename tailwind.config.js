@@ -17,6 +17,7 @@ export default {
     },
     fontFamily: {
       'Lato': ['Lato', 'serif'],
+      'OpenSans': ['Open Sans', 'serif'],
     }
   },
   plugins: [],

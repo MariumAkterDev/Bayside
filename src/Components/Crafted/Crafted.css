@@ -5,7 +5,7 @@
     @apply  flex flex-wrap-reverse gap-y-[30px] justify-between items-center pb-[30px] lg:pb-0
 }
 .CraftText{
-    @apply  px-[20px] md:px-0
+    @apply  px-[20px] lg:px-0
 }
 .CraftText h1{
     @apply w-fit lg:w-[540px] text-[16px] sm:text-[22px] lg:text-[54px] text-[#fff] font-Lato font-bold uppercase

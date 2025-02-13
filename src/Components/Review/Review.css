@@ -1,0 +1,19 @@
+.reviewRow{
+    @apply  px-[20px] lg:px-0
+}
+.ReviewPart{
+    @apply mt-[15px] sm:mt-[20px] lg:mt-[44px] flex flex-wrap gap-y-[20px] justify-between
+}
+
+.reviewSingleCard{
+    @apply w-[150px] sm:w-[220px] lg:w-[392px]  border-[1px] border-[#DADADA] pt-[20px] pl-[23px] pr-[16px] pb-[15px]
+}
+.reviewSingleCard img{
+    @apply w-[15px] lg:w-[28px]
+}
+.reviewSingleCard p{
+    @apply text-[10px] sm:text-[14px] lg:text-[18px] text-PrimaryColor-34 font-OpenSans italic pt-[10px] lg:pt-[23px] pb-[10px] lg:pb-[31px] text-center
+}
+.reviewSingleCard h3{
+    @apply  mx-auto text-[14px] sm:text-[16px] lg:text-[18px] text-PrimaryColor-34 font-OpenSans italic
+}

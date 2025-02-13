@@ -1,0 +1,27 @@
+.LatestRow{
+    @apply py-[30px] md:py-[50px] px-[20px] lg:px-0
+}
+.JwelImg{
+    @apply  flex  justify-between py-[16px] md:py-[51px]
+}
+.JwelImg img{
+    @apply w-[100px] sm:w-[180px] md:w-[220px] lg:w-[392px] hover:scale-[1.2] duration-[0.3s]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
