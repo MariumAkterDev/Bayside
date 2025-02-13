@@ -14,5 +14,5 @@
     @apply text-[14px] lg:text-[18px] text-brand-Color font-Lato font-medium hover:brightness-[80%] duration-[0.2s]
 }
 .jwelaryCards{
-    @apply pt-[10px] lg:pt-[49px]  flex flex-wrap items-center justify-between gap-y-[10px]
+    @apply pt-[10px] lg:pt-[49px]  flex flex-wrap gap-[20px] lg:gap-0 items-center justify-between
 }

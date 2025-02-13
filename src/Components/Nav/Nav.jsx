@@ -3,7 +3,9 @@ import "./Nav.css";
 import logo from "../../assets/images/logo.png";
 import { Link } from "react-router";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaHome, FaShoppingBag   } from "react-icons/fa";
+import { MdMiscellaneousServices, MdRoundaboutRight, MdContacts   } from "react-icons/md";
+
 
 const Nav = () => {
   const [show, setShow] = useState(false);
@@ -28,19 +30,34 @@ const Nav = () => {
                   <div className={`mobMenu`} onClick={() => setShow(false)}>
                     <ul>
                       <li>
+                        <div className="menuIcon">
+                          <FaHome/>
                         <Link to="#">Home</Link>
+                        </div>
                       </li>
                       <li>
+                        <div className="menuIcon">
+                          <FaShoppingBag/>
                         <Link to="#">Shop</Link>
+                        </div>
                       </li>
                       <li>
+                        <div className="menuIcon">
+                          <MdMiscellaneousServices/>
                         <Link to="#">Services</Link>
+                        </div>
                       </li>
                       <li>
+                        <div className="menuIcon">
+                          <MdRoundaboutRight/>
                         <Link to="#">About</Link>
+                        </div>
                       </li>
                       <li>
+                        <div className="menuIcon">
+                          <MdContacts/>
                         <Link to="#">Contact</Link>
+                        </div>
                       </li>
                     </ul>
                   </div>
